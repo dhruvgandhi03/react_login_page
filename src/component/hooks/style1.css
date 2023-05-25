@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Rubik',sans-serif;
+    font-weight: 700;
+    
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-color: rgb(34, 8, 69);
+    margin: 0%;
+}
+
+.container {
+    display: flex;
+    margin-top: 30vh;
+    background-color: rgb(45, 129, 225);
+    height: 50vh;
+    width: 45vh;
+    flex-direction: column;
+    border-radius: 10px;
+
+
+
+}
+
+.display {
+    display: flex;
+    background-color: rgb(220, 237, 237);
+    margin: auto;
+    height: 7vh;
+    width: 18vh;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btns {
+    display: flex;
+    margin: auto;
+
+    justify-content: center;
+
+
+}
+
+
+.btn {
+    background-color: rgb(12, 12, 12);
+    display: flex;
+    height: 8vh;
+    width: 15vh;
+    margin: 10px;
+    padding: auto;
+    border-radius: 10px;
+    /* border: 2px solid black; */
+    box-shadow: 16px 14px 20px #0000008c;
+    overflow: hidden;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    color: #991dff;
+    
+
+    
+}
+.btn:hover:before{
+    display: flex;
+    content: '';
+    background-image: conic-gradient(
+        #991dff 20deg,
+        transparent 120deg
+    );
+    width: 350%;
+    height: 350%;
+    position: absolute;
+    animation: rotate 1.5s linear  infinite;
+    color: #991dff;
+    
+}
+#btn1::after{
+    content: "INCR";
+}
+#btn2::after{
+    content: "DECR";
+    
+}
+
+.btn::after{
+    content: '';
+    width: 100px;
+    height: 50px;
+    background : rgb(9, 9, 9);
+    position: absolute;
+    border-radius: 10px;
+
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 16px 14px 20px #0000008c;
+    color: #991dff;
+    
+
+
+}
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}

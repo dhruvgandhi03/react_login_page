@@ -1,0 +1,91 @@
+body{
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.card-body{
+    display: inline-block;
+    
+    
+    height: 50vh;
+    width: 35vh;
+    margin: 10px;
+    
+   
+    background-color: rgb(227, 170, 141);   
+    border-radius: 10px;
+    align-items : center;
+
+     
+    
+
+}
+.card-title{
+
+    display: flex;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    justify-content: center;
+    
+}
+.card-description{
+    font-size: smaller;
+    display: flex;
+    justify-content: center;
+    
+}
+img{
+    height: 25vh;
+    width: 35vh;
+    
+
+}
+.btn-group{
+    display: inline-block;
+    border: 4px solid bisque;
+    
+   
+    margin-bottom: 10px;
+    border-radius: 5px;
+    
+    
+    
+    
+
+    
+       
+
+}
+.btn{
+   
+    background-color: bisque;
+ 
+    padding: 15px;
+    border: solid bisque;
+   
+   
+    
+    
+   
+
+    
+}
+.btn:hover,
+.btn:focus{
+
+   
+    box-shadow: inset 0px -17px 0px -15px rebeccapurple;
+   
+    color: purple;
+    
+}
+
+nav{
+    padding-top: 20px;
+    text-align: center;
+    
+
+}
+

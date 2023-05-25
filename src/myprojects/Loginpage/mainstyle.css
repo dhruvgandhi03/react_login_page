@@ -1,0 +1,238 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    margin: 0px;
+    
+}
+#root{
+     /* display: flex;
+    align-items: center ;
+    justify-content: center; */
+    /* margin-top:100px; */
+    overflow: hidden;
+    z-index: 2;
+    height: 100vh;
+    
+    width: 100vw;
+}
+.box{
+     display: flex;
+    align-items: center ;
+    justify-content: center;
+    /* animation: fadeout  2s ease-in-out; */
+
+}
+span{
+    font-size: 27px;
+
+}
+
+    
+
+
+.container{
+
+    aspect-ratio: 0.8;
+    height: 30rem;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 3px solid rgb(176, 1, 1);
+    margin-top: 120px;
+    box-shadow: 0px 10px 30px 0.1px  rgba(166, 2, 2, 0.623);
+    
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    
+  
+    overflow: hidden;
+
+}
+
+.btn{
+    cursor: pointer;
+    height: 70px;
+    width: 200px;
+    border: 3px solid rgb(176, 1, 1);
+    border-top: 0px;
+    border-left: 0px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: 'MADE TOMMY',sans-serif;
+    font-weight: 300;
+  
+}
+.btn:hover{
+    color: red;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    
+    
+}
+
+#inputs{
+   
+    margin: 10px;
+    
+    height: 40px;
+    width: 250px;
+}
+#inputs:hover{
+    border: 2px solid rgb(176, 1, 1);
+}
+.title{
+    color: rgb(255, 255, 255);
+    
+    
+    
+   
+    font-family: 'MADE TOMMY',sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    text-align: center;
+    
+ 
+   
+    width: 60%;
+   
+}
+.signin{
+    
+   position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    z-index: 1;
+  
+    background-color: rgb(0, 0, 0);
+    
+}
+.innerbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    
+    
+    
+    aspect-ratio: 1;
+
+}
+.login{
+   
+    z-index: 0;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    background-color: rgb(0, 0, 0);
+   
+
+}
+.submit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 35px;
+    width: 90px;
+    border: 2px solid white;
+    color: white;
+    margin-top: 15px;
+    font-family: 'MADE TOMMY',sans-serif;
+    cursor: pointer;
+    
+}
+.submit:hover{
+    color: red;
+    border:2px solid red;
+
+}
+.side{
+   
+    overflow: hidden;
+    position: absolute;
+    overflow: hidden;   
+    
+    height: 100vh;
+    width: 100%;
+    place-items: center;
+    font-family: "Keep on Truckin",sans-serif;  
+    font-weight: 200;
+    font-size: 50px;
+    display: grid;
+    opacity: 100;
+ 
+
+}
+#red{
+   
+    animation: opacity 1s ease-in-out;
+    color: rgb(0, 0, 0);
+    background-color: rgb(174, 33, 33);
+    z-index: 5;
+    
+    
+ 
+    
+    
+    
+}
+#black{
+   
+
+    color: rgb(255, 0, 0);
+    background-color: rgb(0, 0, 0);
+    
+}
+h1{
+  
+    width: 100vw;
+    margin: 0px 15vw;
+}
+@keyframes fadeout {
+   from{
+        position: relative;
+        top: 0px;
+    }
+    to{
+        position: relative;
+        top: 1500px;
+    }
+}
+@keyframes opacity {
+   from{
+        width: 0%;
+    }
+    to{
+        width: 100%;
+    }
+
+}
+.fa-solid fa-eye{
+    position: absolute;
+    z-index: 50;
+    color: red;
+    font-size: 50px;
+}
+
+
+
